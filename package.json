@@ -20,7 +20,7 @@
     "url": "https://github.com/d6u/react-container-query/issues"
   },
   "homepage": "https://github.com/d6u/react-container-query",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "dist",
