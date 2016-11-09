@@ -1,5 +1,10 @@
 import ResizeObserverLite from 'resize-observer-lite';
 import matchQueries from 'container-query-toolkit/lib/matchQueries';
+import React from 'react';
+import omit from 'lodash/omit';
+import isEqual from 'lodash/isEqual';
+import classnames from 'classnames';
+
 /**
  * <ContainerQuery tagName='div' query={query}>
  *   {(params) => {
@@ -37,7 +42,7 @@ export default class ContainerQuery extends React.Component {
                 children = this.props.children;
             }
         }
-        const props = omit(this.props, ['children', 'tagName', 'query']);
+        const props = omit(this.props, ['children', 'tagName', 'query', 'onResize']);
         props.ref = 'container';
         props.className = classnames(this.props.className, this.state.params);
         if (children) {
