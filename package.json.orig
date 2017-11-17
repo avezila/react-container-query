@@ -1,6 +1,10 @@
 {
   "name": "react-container-query",
+<<<<<<< HEAD
+  "version": "0.7.1",
+=======
   "version": "0.9.1",
+>>>>>>> upstream/master
   "description": "Container Query for React Component",
   "author": "Daiwei Lu <daiweilu123@gmail.com> (http://daiwei.lu)",
   "repository": {
@@ -20,7 +24,7 @@
     "url": "https://github.com/d6u/react-container-query/issues"
   },
   "homepage": "https://github.com/d6u/react-container-query",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "dist",
@@ -28,6 +32,13 @@
     "src"
   ],
   "dependencies": {
+<<<<<<< HEAD
+    "@types/classnames": "0.0.31",
+    "@types/lodash": "4.*",
+    "@types/react": "0.14.*",
+    "classnames": "2.*",
+=======
+>>>>>>> upstream/master
     "container-query-toolkit": "0.1.1",
     "lodash": "4.*",
     "resize-observer-lite": "0.2.2"

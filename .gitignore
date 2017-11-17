@@ -2,7 +2,6 @@
 /dist
 node_modules
 /local
-/lib
 /public
 .DS_Store
 *.log
